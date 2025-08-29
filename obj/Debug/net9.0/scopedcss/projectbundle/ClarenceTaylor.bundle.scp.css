@@ -56,3 +56,45 @@ p[b-e0lgdqpvtb]{
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+/* _content/ClarenceTaylor/Shared/NavMenu.Razor.rz.scp.css */
+.header_nav[b-xxld06908w] {
+    background-color: #f35507; /* Nền cam */
+    padding: 0.8rem 0;
+    align-items: center;
+}
+
+/* Style cho ảnh */
+.profile-img[b-xxld06908w] {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Bo tròn */
+    object-fit: cover;  /* Giữ tỷ lệ ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Bóng đổ */
+    border: 3px solid white; /* Viền trắng cho nổi bật */
+}
+
+/* Style cho nav items */
+.nav-item[b-xxld06908w] {
+    margin: -5px 0;
+}
+
+.nav-link[b-xxld06908w] {
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55) !important;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: color 0.15s ease-in-out;
+    background-color: transparent !important;
+    justify-content: center;
+}
+
+/* Hover và Active */
+.nav-link:hover[b-xxld06908w],
+.nav-link:focus[b-xxld06908w],
+.nav-link.active[b-xxld06908w] {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background-color: transparent !important;
+}
