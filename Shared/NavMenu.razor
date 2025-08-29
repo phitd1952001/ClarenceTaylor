@@ -1,0 +1,77 @@
+﻿<div class="d-flex">
+    <!-- Sidebar -->
+    <div class="header_nav d-flex flex-column" style="width: 250px; height: 100vh;">
+        <nav class="flex-grow-1 align-content-center">
+            <ul class="nav flex-column text-center">
+                <!-- Ảnh profile -->
+                <li class="nav-item">
+                    <img src="https://bt-component-netcore.cybersoft.edu.vn/assets/img/profile.jpg" alt="profile.jpg" class="profile-img mb-3">
+                </li>
+                <!-- Menu items -->
+                @* trang about *@
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger active" aria-current="page" href="/" Match="NavLinkMatch.All">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/interests">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/awards">Awards</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<style>
+.header_nav {
+    background-color: #f35507; /* Nền cam */
+    padding: 0.8rem 0;
+    align-items: center;
+}
+
+/* Style cho ảnh */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Bo tròn */
+    object-fit: cover;  /* Giữ tỷ lệ ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Bóng đổ */
+    border: 3px solid white; /* Viền trắng cho nổi bật */
+}
+
+/* Style cho nav items */
+.nav-item {
+    margin: -5px 0;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55) !important;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: color 0.15s ease-in-out;
+    background-color: transparent !important;
+    justify-content: center;
+}
+
+/* Hover và Active */
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background-color: transparent !important;
+}
+</style>

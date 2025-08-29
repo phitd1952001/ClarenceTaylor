@@ -1,0 +1,57 @@
+.about[b-e0lgdqpvtb]{
+    padding-left: 1.5rem !important;    
+    padding-right: 1.5rem !important;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+h1[b-e0lgdqpvtb]{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #343A40;
+
+}
+
+.about__content p:first-of-type[b-e0lgdqpvtb] {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 3rem !important;
+}
+
+.about__content p:last-child[b-e0lgdqpvtb]{
+    margin-bottom: 3rem !important;
+}
+
+p a[b-e0lgdqpvtb]{
+    color: #bd5d38 ;
+    text-transform: uppercase ;
+}
+
+p[b-e0lgdqpvtb]{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7A8289;
+}
+
+.about .about__icons[b-e0lgdqpvtb]{
+    font-size: 35px !important;
+    border-radius: 5rem;
+}
+
+.about .about__icons svg[b-e0lgdqpvtb]{
+    width: 40px;
+    height: 40px;
+    background-color: #343A40;
+    color: white;
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.about .about__icons svg:hover[b-e0lgdqpvtb]{
+    background-color: #bd5d38;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
