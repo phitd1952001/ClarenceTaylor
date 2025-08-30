@@ -9,6 +9,11 @@
     color: #6c757d;
 }
 
+.Awards .icons li:hover[b-483nrl47nb]{
+    transform: scale(1.2);
+    margin-left: 68px !important;
+}
+
 .Awards .icons li span[b-483nrl47nb] {
     color: rgb(255 193 7) !important;
     font-size: 1.1rem !important;

@@ -15,6 +15,7 @@
 
 .container .icon li:hover[b-4ot27kea26]{
  transform: scale(1.2);
+ margin-left: -10px;
  color: #bd5d38;
 }
 
