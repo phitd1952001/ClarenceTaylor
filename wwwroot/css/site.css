@@ -184,3 +184,48 @@ app {
         display: block;
     }
 }
+
+/* Experience__Senior */
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1, .container h2, .container h3 {
+    text-transform: uppercase;
+}
+
+.container h1{
+    font-size: 3rem;
+    font-weight: 700 !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.container h2{
+    font-size: 2rem;
+    font-weight: 600 !important;
+}
+
+.container h3{
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+    margin-bottom: 1rem !important;
+}
+
+.container p:nth-of-type(1){
+    margin-bottom: 1.5rem !important;
+}
+
+.color--black{
+    color: #343a40;
+}
+
+.color--gray{
+    color: #6c757d;
+}
+
+.color--orange{
+    color: #bd5d38;
+}

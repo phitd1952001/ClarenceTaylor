@@ -68,8 +68,8 @@ p[b-e0lgdqpvtb]{
 
 /* Ảnh profile */
 .profile-img[b-xxld06908w] {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;           
     object-fit: cover;              
     border: 3px solid #fff;          
@@ -85,8 +85,8 @@ p[b-e0lgdqpvtb]{
 
 /* Nav items chung */
 .nav-item[b-xxld06908w] {
-    margin: -5px 0 !important; 
-    font-size: 25px;
+    margin: -6px 0 !important; 
+    font-size: 20px;
     font-weight:700;
 }
 
