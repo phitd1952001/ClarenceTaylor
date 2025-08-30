@@ -56,45 +56,59 @@ p[b-e0lgdqpvtb]{
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-/* _content/ClarenceTaylor/Shared/NavMenu.Razor.rz.scp.css */
+/* _content/ClarenceTaylor/Shared/NavMenu.razor.rz.scp.css */
+/* Sidebar container */
 .header_nav[b-xxld06908w] {
-    background-color: #f35507; /* Nền cam */
-    padding: 0.8rem 0;
+    background-color: rgba(189, 93, 56, 1) !important;
+    padding: 1rem 0;
     align-items: center;
+    width: 300px;
+    height: 100vh;
 }
 
-/* Style cho ảnh */
+/* Ảnh profile */
 .profile-img[b-xxld06908w] {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Bo tròn */
-    object-fit: cover;  /* Giữ tỷ lệ ảnh */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Bóng đổ */
-    border: 3px solid white; /* Viền trắng cho nổi bật */
+    border-radius: 50%;           
+    object-fit: cover;              
+    border: 3px solid #fff;          
+    box-shadow: 1px 1px 35px rgba(253, 253, 253, 0.75); 
+    margin-bottom: 15px;         
 }
 
-/* Style cho nav items */
+.profile-img:hover[b-xxld06908w]{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 1px 1px 35px rgba(253, 253, 253, 1);
+}
+
+/* Nav items chung */
 .nav-item[b-xxld06908w] {
-    margin: -5px 0;
+    margin: -5px 0 !important; 
+    font-size: 25px;
+    font-weight:700;
 }
 
+/* Nav link cơ bản */
 .nav-link[b-xxld06908w] {
-    font-size: 15px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.55) !important;
-    text-decoration: none;
-    padding: 10px;
     display: block;
-    transition: color 0.15s ease-in-out;
-    background-color: transparent !important;
-    justify-content: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55); 
+    border-radius: 6px;              
+    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
-/* Hover và Active */
-.nav-link:hover[b-xxld06908w],
-.nav-link:focus[b-xxld06908w],
+/* Hover hiệu ứng */
+.nav-link:hover[b-xxld06908w] {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.15); 
+}
+
+/* Active hiệu ứng */
 .nav-link.active[b-xxld06908w] {
-    color: rgba(255, 255, 255, 0.9) !important;
-    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.25); 
+    font-weight: 800;
 }

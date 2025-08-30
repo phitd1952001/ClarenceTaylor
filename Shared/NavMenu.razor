@@ -1,31 +1,31 @@
 ﻿<div class="d-flex">
     <!-- Sidebar -->
-    <div class="header_nav d-flex flex-column" style="width: 250px; height: 100vh;">
+    <div class="header_nav d-flex flex-column">
         <nav class="flex-grow-1 align-content-center">
-            <ul class="nav flex-column text-center">
+            <ul class="nav flex-column text-center align-items-center">
                 <!-- Ảnh profile -->
-                <li class="nav-item">
+                <li class="nav-item ">
                     <img src="https://bt-component-netcore.cybersoft.edu.vn/assets/img/profile.jpg" alt="profile.jpg" class="profile-img mb-3">
                 </li>
                 <!-- Menu items -->
                 @* trang about *@
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger active" aria-current="page" href="/" Match="NavLinkMatch.All">About</a>
+                <li class="nav-item ">
+                    <NavLink class="nav-link bg-transparent nav-link-item" aria-current="page" href="/" Match="NavLinkMatch.All">About</NavLink>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/experience">Experience</a>
+                    <NavLink class="nav-link bg-transparent nav-link-item" href="/experience"  Match="NavLinkMatch.Prefix">Experience</NavLink>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/education">Education</a>
+                    <NavLink class="nav-link bg-transparent" href="/education" Match="NavLinkMatch.Prefix">Education</NavLink>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/skills">Skills</a>
+                    <NavLink class="nav-link bg-transparent" href="/skills">Skills</NavLink>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/interests">Interests</a>
+                    <NavLink class="nav-link bg-transparent" href="/interests">Interests</NavLink>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/awards">Awards</a>
+                    <NavLink class="nav-link bg-transparent" href="/awards">Awards</NavLink>
                 </li>
             </ul>
         </nav>
