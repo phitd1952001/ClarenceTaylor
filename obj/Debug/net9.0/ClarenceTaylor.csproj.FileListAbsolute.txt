@@ -73,6 +73,7 @@ C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\scopedcss\Pages\About.raz
 C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\scopedcss\projectbundle\ClarenceTaylor.bundle.scp.css
 C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\ClarenceTaylor.sourcelink.json
 C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\scopedcss\Shared\NavMenu.Razor.rz.scp.css
-C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\compressed\zaq3cvwjiz-r5o8vcay6j.gz
-C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\compressed\tolkc17bny-xotfcrbg26.gz
-C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\compressed\8vdonoe5os-xotfcrbg26.gz
+C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\compressed\zaq3cvwjiz-2ybyk0wlp4.gz
+C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\scopedcss\Pages\Skills.razor.rz.scp.css
+C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\compressed\tolkc17bny-m0ezs13r7l.gz
+C:\Users\Admin\Desktop\ClarenceTaylor\obj\Debug\net9.0\compressed\8vdonoe5os-m0ezs13r7l.gz

@@ -201,21 +201,28 @@ app {
     font-weight: 700 !important;
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
+    color: #343a40;
 }
 
 .container h2{
     font-size: 2rem;
     font-weight: 600 !important;
+    color: #343a40;
 }
 
 .container h3{
     font-size: 1.5rem;
     font-weight: 600 !important;
     margin-bottom: 1rem !important;
+    color: #6c757d;
 }
 
 .container p:nth-of-type(1){
     margin-bottom: 1.5rem !important;
+}
+
+.container p{
+    color: #6c757d;
 }
 
 .color--black{
@@ -226,6 +233,6 @@ app {
     color: #6c757d;
 }
 
-.color--orange{
-    color: #bd5d38;
+.color--oranges{
+    color: #bd5d38 !important;
 }

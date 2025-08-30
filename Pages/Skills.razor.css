@@ -1,0 +1,36 @@
+.container .icon {
+  display: flex;         
+  list-style: none;     
+  padding: 0;
+  margin: 0;
+  gap: 5px; 
+}
+
+.container .icon li {
+  display: inline-block; 
+  margin-right: 5px;    
+  list-style: none;  
+  font-size: 3.5rem;
+}    
+
+.container .icon li:hover{
+ transform: scale(1.2);
+ color: #bd5d38;
+}
+
+.container .icon li:first-child {
+ margin-left: -40px;
+}
+
+.content ul li{
+    list-style: none;
+    color: #6c757d;
+    margin-top: -5px;
+    padding: 5px 0;
+}
+
+.content ul li:hover{
+    color: #bd5d38;
+    transform: scale(1.1);
+    margin-left: 47px;
+}

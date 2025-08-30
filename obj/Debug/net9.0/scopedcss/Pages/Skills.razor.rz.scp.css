@@ -1,0 +1,36 @@
+.container .icon[b-4ot27kea26] {
+  display: flex;         
+  list-style: none;     
+  padding: 0;
+  margin: 0;
+  gap: 5px; 
+}
+
+.container .icon li[b-4ot27kea26] {
+  display: inline-block; 
+  margin-right: 5px;    
+  list-style: none;  
+  font-size: 3.5rem;
+}    
+
+.container .icon li:hover[b-4ot27kea26]{
+ transform: scale(1.2);
+ color: #bd5d38;
+}
+
+.container .icon li:first-child[b-4ot27kea26] {
+ margin-left: -40px;
+}
+
+.content ul li[b-4ot27kea26]{
+    list-style: none;
+    color: #6c757d;
+    margin-top: -5px;
+    padding: 5px 0;
+}
+
+.content ul li:hover[b-4ot27kea26]{
+    color: #bd5d38;
+    transform: scale(1.1);
+    margin-left: 47px;
+}
